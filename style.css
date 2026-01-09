@@ -129,7 +129,7 @@ body{
     gap: 50px;
     align-items: center;
 }
-.Solution-content p,h2{ 
+.Solution-content p, h2{ 
     margin-bottom: 22px;
 }
 .Solution-content p{
@@ -144,5 +144,32 @@ body{
     
 }
 .Solution-content ul li:hover{
+    color: #627382;
+}
+
+
+.early-eccess-area h2,p{
+    margin-bottom: 20px;
+}
+.early-eccess-area{
+    background: #f7f6f2;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 330px;
+    margin: 100px 0;
+}
+.early-eccess-area h2{
+    font-size: 40px;
+}
+.early-eccess-area p{
+    color: #627382;
+}
+.early-eccess-area ul{
+    margin-top: 10px;
+}
+.early-eccess-area ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 5px;
     color: #627382;
 }
