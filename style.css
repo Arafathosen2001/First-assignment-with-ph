@@ -18,6 +18,7 @@ body{
     border: none;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
 }
 .navigation{
     display: flex;
@@ -39,6 +40,9 @@ body{
     text-decoration: none;
     color: #000;
 }
+.menu ul li a:hover{
+    color: #627382;
+}
 .button-area button:hover{
     background: #469165;
 }
@@ -59,6 +63,10 @@ body{
     padding: 5px 20px;
     border-radius: 20px;
     color: #30B868;
+    cursor: pointer;
+}
+.Early:hover{
+    background: #d8d6d6;
 }
 .content h2,h3{
     font-size: 70px;
@@ -77,9 +85,17 @@ body{
     line-height: 35px;
 }
 
+.button1:hover{
+    background: #469165;
+    cursor: pointer;
+}
 .button2{
     background: transparent;
     border: 1px solid #fff;
+    cursor: pointer;
+}
+.button2:hover{
+    background: #080808d2;
 }
 
 
@@ -172,6 +188,9 @@ body{
     display: inline;
     margin-top: 5px;
     color: #627382;
+}
+.early-eccess-area button:hover{
+    background: #469165;
 }
 
 
