@@ -12,6 +12,13 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.btn{
+    padding: 10px 16px;
+    background: #30B868;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -32,12 +39,45 @@ body{
     text-decoration: none;
     color: #000;
 }
-.button-area button{
-    padding: 10px 16px;
-    background: #30B868;
-    border: navajowhite;
-    border-radius: 5px;
-}
 .button-area button:hover{
     background: #469165;
+}
+
+.benar{
+    background-image: url(./images/hero-bg.png);
+    background-size: cover;
+    padding: 100px 350px;
+    text-align: center;
+
+}
+.content p{
+    margin-bottom: 20px;
+}
+.Early{
+    display: inline;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #30B868;
+}
+.content h2,h3{
+    font-size: 70px;
+}
+.content h2{
+    color: #fff;
+    margin-top: 20px;
+}
+.content h3{
+    color: #30B868;
+    margin-bottom: 20px;
+}
+.private-space{
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.button2{
+    background: transparent;
+    border: 1px solid #fff;
 }
