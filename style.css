@@ -118,3 +118,31 @@ body{
 .notice-card h2{
     font-size: 24px;
 }
+
+
+.Solution-area{
+    padding: 100px 0;
+}
+.main-content-solution{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.Solution-content p,h2{ 
+    margin-bottom: 22px;
+}
+.Solution-content p{
+    color: #627382;
+}
+.Solution-content h2{
+    font-size: 48px;
+}
+.Solution-content ul li{
+    list-style: none;
+    padding: 5px 0;
+    
+}
+.Solution-content ul li:hover{
+    color: #627382;
+}
