@@ -50,7 +50,7 @@ body{
 .benar{
     background-image: url(./images/hero-bg.png);
     background-size: cover;
-    padding: 100px 350px;
+    padding: 100px 300px;
     text-align: center;
 
 }
@@ -93,6 +93,7 @@ body{
     background: transparent;
     border: 1px solid #fff;
     cursor: pointer;
+    margin-left: 15px;
 }
 .button2:hover{
     background: #080808d2;
